@@ -64,7 +64,7 @@ body
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: flex-start;
-  margin: 0px;
+  margin: 0;
 }
 
 .colonne_gauche
@@ -122,11 +122,14 @@ body
   color: #4FC3F7;
 }
 
-span i
+span i.fas
 {
   color: white;
-  border-radius: 100%;
+  border-radius: 50%;
   border: 2px white solid;
+  height: 70px;
+  width: 70px;
+  line-height: 70px;
   padding: 0.2em;
 }
 
@@ -147,6 +150,11 @@ span i
 .date_formation_1
 {
   width: 40em;
+}
+
+.date_formation_1 p
+{
+  margin-top: 0;
 }
 
 .bloc_formation_2
