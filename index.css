@@ -137,6 +137,7 @@ span i
 {
   border-bottom: 1px solid #f44336;
 }
+
 .bloc_formation_1
  {
     display: flex;
@@ -144,13 +145,20 @@ span i
  }
 
 .date_formation_1
- {
+{
   width: 40em;
-  text-align: center;
-  float: left; 
- }
+}
 
+.bloc_formation_2
+{
+  display: flex;
+  flex-wrap: nowrap;
+}
 
+.date_formation_2
+{
+  width: 63em;
+}
 
 /*Bloc Exp Pro*/
 .exp_pro h2
