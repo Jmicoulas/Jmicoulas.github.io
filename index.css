@@ -124,23 +124,35 @@ body
 
 span i
 {
-  color: black;
+  color: white;
   border-radius: 100%;
-  border: 2px black solid;
+  border: 2px white solid;
   padding: 0.2em;
 }
 
 /*Colonne droite*/
 
+/*Bloc Formation*/
 .formation h2
 {
   border-bottom: 1px solid #f44336;
 }
- .bloc_formation_1
+.bloc_formation_1
  {
     display: flex;
+    flex-wrap: nowrap;
  }
 
+.date_formation_1
+ {
+  width: 40em;
+  text-align: center;
+  float: left; 
+ }
+
+
+
+/*Bloc Exp Pro*/
 .exp_pro h2
 {
   border-bottom: 1px solid #f44336;
