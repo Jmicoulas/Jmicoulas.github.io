@@ -56,7 +56,7 @@ img
   border-radius: 50%; 
   margin-left: auto;
   margin-right: auto;
-  border: 5px #c62828 solid;
+  border: 5px #424242 solid;
 }
 
 .nom_prenom
@@ -306,6 +306,26 @@ i
   {
     display: flex;
     flex-direction: column;
+  }
+
+  .colonne_gauche
+  {
+    width: auto;
+    ;
+  }
+
+  .nom_prenom_MQ
+  {
+    display: block;
+    text-align: center;
+    font-size: 2em; 
+    background-color: #424242;
+    margin-top: 0;
+  }
+
+  .prenom_MQ
+  {
+    font-weight: bold;
   }
 
 
