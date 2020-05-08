@@ -164,7 +164,7 @@ span i.fas
  {
     display: flex;
     flex-wrap: nowrap;
-    padding-bottom: 3em; 
+    margin-bottom: 3em; 
  }
 
  .formation_1 h4 
@@ -309,8 +309,15 @@ i
   margin-top: 2.3em;
 }
 
+#icone_cible
+{
+  display: none;
+}
 
-
+#icone_rond
+{
+  display: none;
+}
 /*Media queries*/
 
 /*Telephone*/
@@ -383,10 +390,11 @@ i
 
   .bloc_formation_1
   {
-    flex-direction: column;
+    flex-wrap: wrap;
+    border-bottom:1px #f44336 dashed;
   }
 
-  .formation h2
+  .colonne_droite h2
   {
     height: auto;
     font-size: 1.9em;
@@ -395,13 +403,91 @@ i
 
   #icone_formation_1
   {
-    float: left; 
+    display: block;
+    float: left;
+    padding-left: 10px; 
   }
 
   #icone_formation_2
   {
     display: block;
     float: right;
+    padding-left: 10px;
+  }
+
+  .date_formation_1
+  {
+    margin: 0;
+    flex: 1;
+    text-align: center;    
+  }
+
+  #icone_cible
+  {
+    display: block;
+    padding: 10px;
+  }
+
+  i.far
+  {
+    display: none;
+  }
+
+  .formation_1
+  {
+    text-align: center;
+    padding: 1em;
+  }
+
+  .bloc_formation_2
+  {
+    flex-wrap: wrap;
+    border-bottom: 1px dotted #f44336;
+  }
+
+  #icone_rond
+  {
+    display: block;
+    padding: 10px;
+  }
+
+  i.fas
+  {
+    display: none;
+  }
+
+  .date_formation_2
+  {
+    margin: 0; 
+    flex: 1;
+    text-align: center;
+  }
+
+  .formation_2
+  {
+    text-align: center;
+    padding: 1em;
+  }
+
+  #icone_exp_pro_1
+  {
+    display: block;
+    float: right;
+    padding-left: 10px;
+    margin: auto;
+  }
+
+  #icone_exp_pro_2
+  {
+    display: block;
+    float: left;
+    padding-left: 10px;
+    margin: auto;
+  }
+
+  .exp_pro h2
+  {
+    display: flex;
   }
 
 /*Tablette*/
