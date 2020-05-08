@@ -300,18 +300,25 @@ i
 
 
 /*Media queries*/
-@media screen and (max-width: 768px) 
+
+/*Telephone*/
+@media screen and (max-width: 767px) 
 {
   body
   {
     display: flex;
     flex-direction: column;
+    flex:1;
   }
 
   .colonne_gauche
   {
     width: auto;
-    ;
+  }
+
+  .colonne_droite
+  {
+    padding: 0;
   }
 
   .nom_prenom_MQ
@@ -328,6 +335,13 @@ i
     font-weight: bold;
   }
 
+  .nom_prenom
+  {
+    display: none;
+  }
 
 
 }
+
+/*Tablette*/
+@media screen and (min-width: 768px) and (max-width: 1199px)
