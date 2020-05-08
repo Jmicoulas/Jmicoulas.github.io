@@ -308,17 +308,18 @@ i
   {
     display: flex;
     flex-direction: column;
-    flex:1;
+    justify-content: center;
   }
 
   .colonne_gauche
   {
-    width: auto;
+    width: 100%;
   }
 
   .colonne_droite
   {
     padding: 0;
+    width: 100%;
   }
 
   .nom_prenom_MQ
@@ -340,6 +341,15 @@ i
     display: none;
   }
 
+  .recommandations
+  {
+    flex-direction: column;
+  }
+
+  .bloc_formation_1
+  {
+    flex-direction: column;
+  }
 
 }
 
