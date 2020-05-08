@@ -57,6 +57,7 @@ img
   margin-left: auto;
   margin-right: auto;
   border: 5px #424242 solid;
+  vertical-align: middle;
 }
 
 .nom_prenom
@@ -100,6 +101,12 @@ body
 .contact
 {
   padding: 1em 1em 1em 3em;
+}
+
+.contact_underline
+{
+  color: #424242;
+  font-size: 1.3em;
 }
 
 .a_propos
@@ -146,6 +153,11 @@ span i.fas
 .formation h2
 {
   border-bottom: 1px solid #f44336;
+}
+
+#icone_formation_2
+{
+  display: none;
 }
 
 .bloc_formation_1
@@ -346,12 +358,51 @@ i
     flex-direction: column;
   }
 
+
+  .contact
+  {
+    text-align: center;
+    padding: 0;
+  }
+
+  .photo_profil
+  {
+    padding: 0;
+  }
+
+  .a_propos
+  {
+    height: auto;
+  }
+
+  i
+  {
+    margin: 0;
+    padding-right: 0;
+  }
+
   .bloc_formation_1
   {
     flex-direction: column;
   }
 
-}
+  .formation h2
+  {
+    height: auto;
+    font-size: 1.9em;
+    text-align: center;
+  }
+
+  #icone_formation_1
+  {
+    float: left; 
+  }
+
+  #icone_formation_2
+  {
+    display: block;
+    float: right;
+  }
 
 /*Tablette*/
 @media screen and (min-width: 768px) and (max-width: 1199px)
