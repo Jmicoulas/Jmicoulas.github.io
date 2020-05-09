@@ -318,7 +318,42 @@ i
 {
   display: none;
 }
-/*Media queries*/
+
+#menu_tel
+{
+  display: none;
+}
+
+.btn 
+{
+    position: fixed;
+    bottom: 10px;
+        float: right;
+        right: 18.5%;
+        left: 77.25%;
+        max-width: 30px;
+        width: 100%;
+        font-size: 12px;
+        border: 1px black solid;
+        background-color: #f44336;
+        padding: .5px;
+        border-radius: 4px;
+        text-align: center;
+        text-decoration: none;
+}
+
+#icone_btn
+{
+  color: white;
+  margin: 0;
+  text-align: center;
+  padding: 0;
+}
+
+.btn:hover 
+{
+        background-color: #7dbbf1;
+}
 
 /*Telephone*/
 @media screen and (max-width: 767px) 
@@ -328,6 +363,13 @@ i
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+
+  #icone_btn
+  {
+    display: block;
+    padding-top: 5px;
+    padding-bottom:5px;
   }
 
   .colonne_gauche
@@ -586,6 +628,10 @@ i
 
   }
 
+  #menu_tel
+  {
+    display: block
+  }
 
 
 /*Tablette*/
