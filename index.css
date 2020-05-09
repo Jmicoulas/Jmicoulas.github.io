@@ -399,6 +399,7 @@ i
     height: auto;
     font-size: 1.5em;
     text-align: center;
+    margin-bottom: 1.5em;
   }
 
   #icone_formation_1
@@ -557,14 +558,14 @@ i
   {
     display: block;
     float: right;
-    padding-left: 10px;
+    padding-right: 10px;
   }
 
   #icone_reco_2
   {
     display: block;
     float: left;
-    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .reco_1
