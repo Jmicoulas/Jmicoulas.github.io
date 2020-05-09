@@ -397,7 +397,7 @@ i
   .colonne_droite h2
   {
     height: auto;
-    font-size: 1.9em;
+    font-size: 1.5em;
     text-align: center;
   }
 
@@ -443,6 +443,7 @@ i
   {
     flex-wrap: wrap;
     border-bottom: 1px dotted #f44336;
+    margin-bottom: 3em; 
   }
 
   #icone_rond
@@ -489,6 +490,95 @@ i
   {
     display: flex;
   }
+
+  .bloc_exp_pro_1
+  {
+    flex-wrap: wrap;
+    border-bottom:1px #f44336 dashed;
+    margin-bottom: 3em; 
+  }
+
+  .date_exp_pro_1
+  {
+    margin: 0; 
+    flex: 1;
+    text-align: center;
+  }
+
+  .exp_pro_1
+  {
+    text-align: center;
+    padding: 1em;
+  }
+
+  .bloc_exp_pro_2
+  {
+    flex-wrap: wrap;
+    border-bottom:1px #f44336 dashed;
+    margin-bottom: 3em; 
+    padding: 1em;
+  }
+
+  .date_exp_pro_2
+  {
+    margin: 0; 
+    flex: 1;
+    text-align: center;
+  }
+
+  .exp_pro_2
+  {
+    text-align: center;
+    padding: 1em;
+  }
+
+   .bloc_exp_pro_3
+  {
+    flex-wrap: wrap;
+    border-bottom:1px #f44336 dotted;
+    margin-bottom: 3em; 
+    padding: 1em;
+  }
+
+  .date_exp_pro_3
+  {
+    margin: 0; 
+    flex: 1;
+    text-align: center;
+  }
+
+  .exp_pro_3
+  {
+    text-align: center;
+    padding: 1em;
+  }
+
+  #icone_reco_1
+  {
+    display: block;
+    float: right;
+    padding-left: 10px;
+  }
+
+  #icone_reco_2
+  {
+    display: block;
+    float: left;
+    padding-left: 10px;
+  }
+
+  .reco_1
+  {
+    text-align: center;
+  } 
+
+    .reco_2
+  {
+    text-align: center;
+  } 
+
+
+
 
 /*Tablette*/
 @media screen and (min-width: 768px) and (max-width: 1199px)
