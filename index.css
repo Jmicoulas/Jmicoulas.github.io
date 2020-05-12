@@ -330,7 +330,7 @@ i
   bottom: 10px;
   float: right;
   right: 18.5%;
-  left: 77.25%;
+  left: 88.25%;
   max-width: 30px;
   width: 100%;
   font-size: 12px;
@@ -350,7 +350,7 @@ i
   padding: 0;
 }
 
-.btn:active
+.btn:hover
 {
         background-color: #7dbbf1;
 }
@@ -442,7 +442,7 @@ i
     height: auto;
     font-size: 1.5em;
     text-align: center;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
   }
 
   #icone_formation_1
@@ -539,7 +539,7 @@ i
   {
     flex-wrap: wrap;
     border-bottom:1px #f44336 dashed;
-    margin-bottom: 3em; 
+    margin-bottom: 2em; 
   }
 
   .date_exp_pro_1
@@ -559,7 +559,7 @@ i
   {
     flex-wrap: wrap;
     border-bottom:1px #f44336 dashed;
-    margin-bottom: 3em; 
+    margin-bottom: 2em; 
     padding: 1em;
   }
 
@@ -580,7 +580,7 @@ i
   {
     flex-wrap: wrap;
     border-bottom:1px #f44336 dotted;
-    margin-bottom: 3em; 
+    margin-bottom: 2em; 
     padding: 1em;
   }
 
@@ -616,7 +616,7 @@ i
     text-align: center;
   } 
 
-    .reco_2
+  .reco_2
   {
     text-align: center;
   } 
@@ -633,6 +633,73 @@ i
     display: block
   }
 
+  #menu_rapide
+  {
+    margin-top: 1em;
+  }
+
+  #menu_rapide ul
+  {
+    padding:1em 0em 0em 2em;
+    margin:0;
+  }
+
+  #menu_rapide h2
+  {
+    background-color: #424242;
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+  }
+}
 
 /*Tablette*/
 @media screen and (min-width: 768px) and (max-width: 1199px)
+
+{
+  .colonne_gauche
+  {
+    width: 31%;
+  }
+
+  .colonne_droite
+  {
+    width: 60%;
+    padding: 4em 0.5em 0.5em 1em;
+  }
+
+  #icone_exp_pro_2
+  {
+    display: none;
+  }
+
+  #icone_reco_2
+  {
+    display: none;
+  }
+
+  .loisirs
+  {
+    font-size: 0.5em;
+    border-bottom: solid #424242 5em;
+    line-height: 30px;
+  }
+
+    span i.fas
+  {
+    color: white;
+    border-radius: 50%;
+    border: 2px white solid;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    padding: 0.2em;
+  }
+
+  .formation
+  {
+    text-align: center;
+  }
+
+} 
+
