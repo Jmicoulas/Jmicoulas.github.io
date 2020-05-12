@@ -122,7 +122,7 @@ body
   width: auto;
   height: auto;
   text-align: center;
-  padding: 1em 1em 3em 1em;
+  padding: 1em 1em 14em 1em;
   vertical-align: center;
 }
 
@@ -657,6 +657,11 @@ i
 @media screen and (min-width: 768px) and (max-width: 1199px)
 
 {
+  .nom_prenom
+  {
+    text-align: center;
+  }
+
   .colonne_gauche
   {
     width: 31%;
@@ -673,7 +678,7 @@ i
     display: none;
   }
 
-  #icone_reco_2
+  .icone_tablette
   {
     display: none;
   }
@@ -696,10 +701,56 @@ i
     padding: 0.2em;
   }
 
-  .formation
+  .colonne_droite
   {
-    text-align: center;
+    flex-direction: column;
   }
+
+  .bloc_formation_1
+  {
+    flex-wrap: wrap;
+    border-bottom:1px #f44336 dashed;
+    text-align: center;
+    margin-bottom: 2em;
+    padding-bottom: 2em;
+  }
+
+    .date_formation_1
+  {
+    margin: 0;
+    flex: 1;
+    text-align: center;    
+  }
+
+  #icone_cible
+  {
+    display: block;
+    padding: 10px;
+  }
+
+    .bloc_formation_2
+  {
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 2em;
+    padding-bottom: 2em;
+
+  }
+
+    .date_formation_2
+  {
+    margin: 0;
+    flex: 1;
+    text-align: center;    
+  }
+
+    #icone_rond
+  {
+    display: block;
+    padding: 10px;
+  }
+
+
 
 } 
 
