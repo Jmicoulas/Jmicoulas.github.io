@@ -355,6 +355,16 @@ i
         background-color: #7dbbf1;
 }
 
+#icone_exp_pro_2
+{
+  display: none;
+}
+
+#icone_reco_2
+{
+  display: none;
+}
+
 /*Telephone*/
 @media screen and (max-width: 767px) 
 {
@@ -750,7 +760,77 @@ i
     padding: 10px;
   }
 
+  .bloc_exp_pro_1
+  {
+    flex-wrap: wrap;
+    border-bottom:1px #f44336 dashed;
+    margin-bottom: 2em; 
+  }
 
+  .date_exp_pro_1
+  {
+    margin: 0; 
+    flex: 1;
+    text-align: center;
+  }
+
+  .exp_pro_1
+  {
+    text-align: center;
+    padding: 1em;
+  }
+
+  .bloc_exp_pro_2
+  {
+    flex-wrap: wrap;
+    border-bottom:1px #f44336 dashed;
+    margin-bottom: 2em; 
+    padding: 1em;
+  }
+
+  .date_exp_pro_2
+  {
+    margin: 0; 
+    flex: 1;
+    text-align: center;
+  }
+
+  .exp_pro_2
+  {
+    text-align: center;
+    padding: 1em;
+  }
+
+   .bloc_exp_pro_3
+  {
+    flex-wrap: wrap;
+    margin-bottom: 2em; 
+    padding: 1em;
+  }
+
+  .date_exp_pro_3
+  {
+    margin: 0; 
+    flex: 1;
+    text-align: center;
+  }
+
+  .exp_pro_3
+  {
+    text-align: center;
+    padding: 1em;
+  }
+
+  #icone_reco_2
+  {
+    display: none;
+  }
+
+  .recommandations
+  {
+    padding: 0;
+
+  }
 
 } 
 
