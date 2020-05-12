@@ -667,11 +667,6 @@ i
 @media screen and (min-width: 768px) and (max-width: 1199px)
 
 {
-  .nom_prenom
-  {
-    text-align: center;
-  }
-
   .colonne_gauche
   {
     width: 31%;
@@ -684,11 +679,6 @@ i
   }
 
   #icone_exp_pro_2
-  {
-    display: none;
-  }
-
-  .icone_tablette
   {
     display: none;
   }
@@ -832,5 +822,14 @@ i
 
   }
 
+  i.far.fa-dot-circle
+  {
+    display: none;
+  }
+
+  i.fas.fa-circle
+  {
+    display: none;
+  }
 } 
 
