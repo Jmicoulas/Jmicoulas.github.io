@@ -90,7 +90,23 @@ body
 
 /*colonne gauche*/
 
-#titre_gauche
+#titre_gauche_1
+{
+  background-color: #424242;
+  text-align: center;
+  color: white;
+  font-size: 2em;
+}
+
+#titre_gauche_2
+{
+  background-color: #424242;
+  text-align: center;
+  color: white;
+  font-size: 2em;
+}
+
+#titre_gauche_3
 {
   background-color: #424242;
   text-align: center;
@@ -190,7 +206,7 @@ span i.fas
 
 .date_formation_2
 {
-  width: 18%;
+  width: 22.5%;
 }
 
 .date_formation_2 p
@@ -217,7 +233,7 @@ span i.fas
 
 .date_exp_pro_1
 {
-  width: 43%;
+  width: 42%;
 }
 
 .date_exp_pro_1 p
@@ -240,7 +256,7 @@ span i.fas
 
 .date_exp_pro_2
 {
-  width: 41%;
+  width: 35%;
 }
 
 .date_exp_pro_2 p
@@ -263,7 +279,7 @@ span i.fas
 
 .date_exp_pro_3
 {
-  width: 40%;
+  width: 26%;
 }
 
 .date_exp_pro_3 p
@@ -309,12 +325,37 @@ i
   margin-top: 2.3em;
 }
 
-#icone_cible
+#icone_cible_1
 {
   display: none;
 }
 
-#icone_rond
+#icone_cible_2
+{
+  display: none;
+}
+
+#icone_rond_1
+{
+  display: none;
+}
+
+#icone_rond_2
+{
+  display: none;
+}
+
+#icone_rond_3
+{
+  display: none;
+}
+
+#icone_rond_4
+{
+  display: none;
+}
+
+#icone_rond_5
 {
   display: none;
 }
@@ -476,7 +517,13 @@ i
     text-align: center;    
   }
 
-  #icone_cible
+  #icone_cible_1
+  {
+    display: block;
+    padding: 10px;
+  }
+
+  #icone_cible_2
   {
     display: block;
     padding: 10px;
@@ -500,7 +547,31 @@ i
     margin-bottom: 3em; 
   }
 
-  #icone_rond
+    #icone_rond_1
+  {
+    display: block;
+    padding: 10px;
+  }
+
+    #icone_rond_2
+  {
+    display: block;
+    padding: 10px;
+  }
+
+    #icone_rond_3
+  {
+    display: block;
+    padding: 10px;
+  }
+
+    #icone_rond_4
+  {
+    display: block;
+    padding: 10px;
+  }
+
+    #icone_rond_5
   {
     display: block;
     padding: 10px;
@@ -640,11 +711,7 @@ i
 
   #menu_tel
   {
-    display: block
-  }
-
-  #menu_rapide
-  {
+    display: block;    
     margin-top: 1em;
   }
 
@@ -654,7 +721,7 @@ i
     margin:0;
   }
 
-  #menu_rapide h2
+  #menu_tel h2
   {
     background-color: #424242;
     text-align: center;
@@ -722,7 +789,13 @@ i
     text-align: center;    
   }
 
-  #icone_cible
+  #icone_cible_1
+  {
+    display: block;
+    padding: 10px;
+  }
+
+  #icone_cible_2
   {
     display: block;
     padding: 10px;
@@ -744,7 +817,31 @@ i
     text-align: center;    
   }
 
-    #icone_rond
+    #icone_rond_1
+  {
+    display: block;
+    padding: 10px;
+  }
+
+    #icone_rond_2
+  {
+    display: block;
+    padding: 10px;
+  }
+
+    #icone_rond_3
+  {
+    display: block;
+    padding: 10px;
+  }
+
+    #icone_rond_4
+  {
+    display: block;
+    padding: 10px;
+  }
+
+    #icone_rond_5
   {
     display: block;
     padding: 10px;
