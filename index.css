@@ -542,7 +542,7 @@ i
 
   .bloc_formation_2
   {
-    flex-wrap: wrap;
+    flex-direction: column;
     border-bottom: 1px dotted #f44336;
     margin-bottom: 3em; 
   }
@@ -587,6 +587,7 @@ i
     margin: 0; 
     flex: 1;
     text-align: center;
+    width: auto;
   }
 
   .formation_2
