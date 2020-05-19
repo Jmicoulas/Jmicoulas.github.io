@@ -804,6 +804,8 @@ i
 
     .bloc_formation_2
   {
+    display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
     margin-bottom: 2em;
@@ -813,8 +815,7 @@ i
 
     .date_formation_2
   {
-    margin: 0;
-    flex: 1;
+    margin: auto;
     text-align: center;    
   }
 
