@@ -982,6 +982,15 @@ i
   {
     display: none;
   }
+
+  .contact{
+    font-size: 12px;
+    padding: 1px 60px 1px 45px;
+  }
+
+  .a_propos{
+    font-size: 13px;
+  }
 }
 
 /*test*/
